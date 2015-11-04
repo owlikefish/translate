@@ -1,0 +1,19 @@
+这节包含一个关于ECMAScript语言的非规范概览
+
+ECMAScript 是一个基于对象的编程语言，用来执行计算和操作宿主环境中的可计算对象。这儿定义的ECMAScript不会成为计算上自给自足的；确实，在此规范中没有规定外部数据的输入和计算结果的输出。取而代之，我们期望ECMAScript程序的计算环境不仅会提供在此规范中描述的对象和其它功能，还会提供确定的环境特定对象，环境特定对象的描述和行为超出了此规范定义的范围，除了表明，他们会提供确定的属性可被访问和确定的函数可被ECMAScript程序调用。
+
+ECMAScript 原本被设计成一个脚本语言，但是被广泛地作为一个通用意图编程语言来使用。所谓脚本语言是用来操作，定制和自动化一个已存在系统功能的编程语言。在这些系统中，有用的功能总是可以通过一个用户接口来使用，并且，脚本语言是用来把那些功能，暴露给程序控制的一种机制。在这样的方式中，存在的系统被认为提供了一个对象和功能的宿主环境，它完成了脚本语言的能力。脚本语言被打算提供给专业的和非专业的程序员使用。
+
+ECMAScript 原本被设计成一个Web脚本语言，提供一种机制来活跃浏览器中的Web页面，并且作为基于Web的client-server结构的一部分提供执行服务器计算的功能。ECMAScript现在被用来为各种各样宿主环境提供核心脚本能力。因此，在此文档中指定的核心语言脱离了任何特定的宿主环境。
+
+ECMAScript的使用移出了简单脚本的范围，现在被用于许多不同环境和规模中的全谱编程任务。随着ECMAScript的使用渐渐拓展，它提供的特性和功能也在拓展。ECMAScript现在是一个特性充足的通用意图编程语言。
+
+一些ECMAScript的功能和在其他编程语言中使用的功能类似；尤其是以下文档中描述的C、Java™、Self和Scheme：
+
+ISO/IEC 9899:1996, Programming Languages – C.
+
+Gosling, James, Bill Joy and Guy Steele. The Java™ Language Specification. Addison Wesley Publishing Co., 1996.
+
+Ungar, David, and Smith, Randall B. Self: The Power of Simplicity. OOPSLA '87 Conference Proceedings, pp. 227–241, Orlando, FL, October 1987.
+
+IEEE Standard for the Scheme Programming Language. IEEE Std 1178-1990.
